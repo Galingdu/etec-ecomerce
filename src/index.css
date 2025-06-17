@@ -8,3 +8,13 @@
 }
 
 
+.hero-bg{
+    background-image: url('./img/bg-1.png');
+    background-size: cover;
+    background-position : end;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+
+    
+}
