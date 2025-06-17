@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import ProductContext from './ProductContext';
+import Hero from '../components/hero';
 
-function Home() {
-  return (
+function Home() {  
+  
+
+  return(
     <div>
-       
-     
+      <Hero/>
     </div>
   )
+ 
+
 }
 
-export default Home
+export default Home;

@@ -1,13 +1,25 @@
-import React, { createContext } from 'react'
-const products = createContext("")
-export const productProvider =("")
+import React, { createContext, useState, useEffect } from 'react';
+import axios from 'axios'
+export const ProductContext = createContext()
+export const ProductProvider = ({children}) => {
+  const [products, setProducts] = useState([])
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.get('https://product-server-json.onrender.com/products')
+        setProducts(Array.isArray(response.data) ? response.data : []);
+      } catch (error) {
+        console.error("Error fetching products:", error)
+      }
+    }
+    fetchProducts()
 
-function ProductContext() {
+  }, [])
   return (
-    <div>
-      
-    </div>
+    <ProductContext.Provider value={{ products }}>
+      {children}
+    </ProductContext.Provider>
   )
-}
+} 
 
-export default ProductContext
+export default ProductContext 

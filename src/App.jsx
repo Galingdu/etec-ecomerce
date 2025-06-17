@@ -1,7 +1,8 @@
 import React from 'react'
 import Header from './components/Header'
 import { Outlet } from 'react-router-dom'
-import FetchAPI from './pages/FetchAPI'
+
+
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </header>
       <main>
         <Outlet/>
-        <FetchAPI/>
+        
       </main>
 
       <footer>

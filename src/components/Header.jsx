@@ -48,7 +48,7 @@ function Header() {
 <header>
   
 <div className='m-auto container-fluid'>
-    <div className='py-1 lg:px-[120px] bg-orange-600 text-gray-50 flex justify-between'>
+    <div className='py-1 lg:px-[120px] bg-orange-600 text-gray-50 flex justify-between px-5'>
         <p>+885 9628 61 601</p>
         <p className='hidden lg:block'>Get 50% 0ff on Selected Items &emsp;| &emsp; Shop Now</p>
         <div>

@@ -6,3 +6,13 @@
 .inter{
   font-family: "Inter", sans-serif !important;
 }
+
+
+.hero-bg{
+    background-image: url('./img/bg-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+}
