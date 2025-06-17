@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import ProductContext from './ProductContext';
-import Hero from '../components/hero';
-
+import Hero from '../components/Hero';
+  
 function Home() {  
   
 
