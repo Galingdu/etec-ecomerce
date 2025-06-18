@@ -76,21 +76,21 @@ const Contact = () => {
             <FaMapMarkerAlt className="text-orange-500 text-xl mt-1" />
             <div>
               <h4 className="font-semibold">Address</h4>
-              <p>123 Orange Street, Phnom Penh, Cambodia</p>
+              <p>2004 Street, Phnom Penh, Cambodia</p>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <FaEnvelope className="text-orange-500 text-xl mt-1" />
             <div>
               <h4 className="font-semibold">Email</h4>
-              <p>hello@yourcompany.com</p>
+              <p>chenglyheng.tech@gmail.com</p>
             </div>
           </div>
           <div className="flex items-start space-x-4">
             <FaPhone className="text-orange-500 text-xl mt-1" />
             <div>
               <h4 className="font-semibold">Phone</h4>
-              <p>+855 12 345 678</p>
+              <p>+855 96 2861 601</p>
             </div>
           </div>
         </motion.div>

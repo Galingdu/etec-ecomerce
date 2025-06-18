@@ -2,7 +2,7 @@ import React from 'react'
 
 function ShopCategory() {
   return (
-    <div className='px-5 py-3 lg:px-[120px] md:py-10'>
+    <div className='px-5 py-3 lg:px-[120px] md:py-10 lg:mt-3'>
         <h2 className='text-2xl font-bold'>Shop Our Top Categories</h2>
         <div className='flex flex-wrap justify-between items-center md:mt-10'>
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >
@@ -41,13 +41,16 @@ function ShopCategory() {
 
         <div className='flex flex-wrap justify-between items-center my-3.5'>
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >
-                            <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer ' src="https://www.geeky-gadgets.com/wp-content/uploads/2022/04/Windows-11.jpg" alt="" />
+                <h2 className='absolute z-3 left-1/2 transform -translate-x-1/2 top-3 font-bold text-white text-2xl'>Laptops</h2>
+                <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer ' src="https://www.geeky-gadgets.com/wp-content/uploads/2022/04/Windows-11.jpg" alt="" />
             </div>
             
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >
-                           <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer ' src="https://img.freepik.com/premium-photo/contemporary-office-aesthetics-phone-dark-blue-desk-with-neon-generative-ai_94628-12179.jpg" alt="" />
+                <h2 className='absolute z-3 left-1/2 transform -translate-x-1/2 top-3 font-bold text-white text-2xl'>Phones</h2>
+                <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer ' src="https://img.freepik.com/premium-photo/contemporary-office-aesthetics-phone-dark-blue-desk-with-neon-generative-ai_94628-12179.jpg" alt="" />
             </div>
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >
+                <h2 className='absolute z-3 left-1/2 transform -translate-x-1/2 top-3 font-bold text-white text-2xl'>Camera</h2>
                            <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer ' 
                 src="https://th.bing.com/th/id/OIP.vKrQDUvxb9lLxFZl3a0Y6QHaHa?r=0&rs=1&pid=ImgDetMain" alt="" />
             </div>
@@ -57,12 +60,13 @@ function ShopCategory() {
                 src="https://themostexpensive.org/wp-content/uploads/2022/11/Top-10-Most-Expensive-Keyboards.jpg" alt="" />
             </div>
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >
+                <h2 className='absolute z-3 left-1/2 transform -translate-x-1/2 top-3 font-bold text-black text-2xl'>Speaker</h2>
                             <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer '
                  src="https://playbutton.co/wp-content/uploads/2021/06/active-speakers-without-dac.jpg" alt="" />
             </div>
 
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >
-               
+                <h2 className='absolute z-3 left-1/2 transform -translate-x-1/2 top-3 font-bold text-white text-2xl'>PlayStation</h2>
                 <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer '
                  src="https://www.slashgear.com/img/gallery/playstation-plus-will-end-ps3-and-ps-vita-free-games-in-early-2019/intro-import.jpg" alt="" />
             </div>

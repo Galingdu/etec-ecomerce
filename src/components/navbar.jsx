@@ -14,12 +14,12 @@ function Navbar() {
   }
 
   return (
-    <div className='lg:py-5 py-2 lg:px-[120px]'>
-      <nav className='flex items-center'>
-        <div className='flex items-center justify-between lg:w-[50%] w-[100%]'>
+    <div className='lg:py-5 py-2 px-2 lg:px-[120px]'>
+      <nav className='flex gap-2 items-center'>
+        <div className='flex items-center justify-between xl:w-[50%] w-[100%]'>
             <div className='flex items-center'>
                 <div className='w-[70px] h-[70px] pb-5'>
-                  <img className='w-100 mb-3' src="https://img.freepik.com/premium-vector/orange-logo-design_9999-17660.jpg" alt="Error Image" />
+                  <img className='w-100 mb-3' src="https://img.freepik.com/premium-vector/orange-logo-design_9999-17660.jpg" alt="Logo Image" />
                 </div>
                 <h2 className='md:text-4xl md:ps-5 ps-2 font-bold text-2xl pb-1'>
                     OrangeShop
@@ -42,24 +42,24 @@ function Navbar() {
             </ul>
         </div>
 
-        <div className='lg:w-[50%] flex justify-between ps-7 items-center w-[100%]'>
-            <form action="" className='px-5 hidden md:block lg:block'>
+        <div className='ps-10 flex justify-between items-center xl:w-[50%] w-[100%]'>
+            <form action="" className='px-2 hidden xl:block'>
               <div className='flex items-center border border-slate-400 p-2 rounded-lg'>
-                  <input type="text" className='outline-0'placeholder='Search....' />
+                  <input type="text" className='outline-0 w-[150px]'placeholder='Search....' />
                   <button>Search</button>
               </div>
             </form>
             <div className='hidden lg:flex'>
               <NavLink>
-                <div className='flex items-center px-5 gap-2'>
+                <div className='flex items-center xl:px-5 px-3 gap-2 hover:text-orange-500 hover:duration-300'>
                   <FaUser className='lg:text-2xl'/>
-                  <div className='lg:text-xl'>Account</div>
+                  <div className='lg:text-xl '>Account</div>
                 </div>
               </NavLink>
               <NavLink>
-              <div className='flex items-center gap-2 px-2'>
+              <div className='flex items-center gap-2 px-2 hover:text-orange-500 hover:duration-300'>
                  <FaCartShopping className='lg:text-2xl' />
-                 <div className='lg:text-xl'> Cart</div>
+                 <div className='lg:text-xl '> Cart</div>
               </div>
               </NavLink>
             </div>
