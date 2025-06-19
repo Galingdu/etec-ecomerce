@@ -18,7 +18,7 @@ function Navbar() {
       : "text-gray-700 hover:text-orange-400";
 
   return (
-    <div className='lg:py-5 py-2 px-2 lg:px-[120px]'>
+    <div className='lg:py-5 py-2 px-2 lg:px-[120px]' data-aos="fade-down">
       <nav className='flex gap-2 items-center'>
         <div className='flex items-center justify-between xl:w-[50%] w-[100%]'>
             <div className='flex items-center'>
@@ -70,7 +70,7 @@ function Navbar() {
         
              
         </div>
-        <button className='block lg:hidden mx-2' onClick={()=>setMenuOpen(!menuOpen)}>
+        <button className='block lg:hidden mx-2' onClick={()=>setMenuOpen(!menuOpen)} >
             {menuOpen ?  <IoClose className='text-3xl'/> :  <IoMenu className='text-3xl'/>}
            
         </button>
@@ -83,7 +83,7 @@ function Navbar() {
               pb-10
               bg-white
                mt-50
-              `}>
+              `} >
 
               <ul className='gap-6 px-4 py-0 flex flex-col'>
                <NavLink to={"/"} className={navLinkStyles}>

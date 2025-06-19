@@ -29,7 +29,7 @@ const Services = () => {
   return (
     <div className="bg-white text-gray-800 lg:h-[100vh]" >
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-500 to-orange-600 text-white py-20 text-center" data-aos="fade-up">
+      <section className="bg-gradient-to-r from-orange-500 to-orange-600 text-white py-20 text-center" >
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto">
