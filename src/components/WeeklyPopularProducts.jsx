@@ -8,9 +8,9 @@ function WeeklyPopularProducts() {
 
   return (
     <div className='px-5 py-3 lg:px-[120px] md:pb-10'>
-      <h2 className='text-2xl font-bold'>Today's Best Deals for you!</h2>
+      <h2 className='text-2xl font-bold'>Weekly PopularProducts!</h2>
 
-      <div className='overflow-x-auto my-5 mt-10'>
+      <div className='overflow-x-auto py-5 mt-10'>
         <div className='flex gap-5 whitespace-nowrap'>
           {products.map((p, i) => (
             <div

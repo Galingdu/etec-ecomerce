@@ -99,17 +99,17 @@ function PaymentIcon({ icon, label }) {
           <span>Terms of Service</span>
           <span>Privacy & Policy</span>
           <span>
-            All Right reserved by Musemind{' '}
-            <a href="#" className="text-blue-500 underline">ui/ux design</a> agency | 2022
+            
           </span>
         </div>
       </div>
+      <div className="bg-orange-900 text-gray-300 py-1 text-center opacity-90 text-[12px]">
+              <p>&copy; {new Date().getFullYear()} Cheng Lyheng. All rights reserved.</p>
+            </div>
     </div>
   );
 }
 export default Footer;
 
-{/* <div className="bg-orange-900 text-gray-300 py-1 text-center opacity-90 text-[12px]">
-        <p>&copy; {new Date().getFullYear()} Cheng Lyheng. All rights reserved.</p>
-      </div> */}
+
 

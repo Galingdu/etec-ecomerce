@@ -12,6 +12,10 @@ function Navbar() {
   function handleTab(){
     setMenuOpen(false);
   }
+  const navLinkStyles = ({ isActive }) =>
+    isActive
+      ? "text-orange-500 "
+      : "text-gray-700 hover:text-orange-400";
 
   return (
     <div className='lg:py-5 py-2 px-2 lg:px-[120px]'>
@@ -26,16 +30,16 @@ function Navbar() {
                 </h2>
             </div>
             <ul className='gap-6 px-4 py-0 hidden lg:flex'>
-               <NavLink to={"/"}>
+               <NavLink to={"/"} className={navLinkStyles}>
                  <li className='hover:text-orange-600 duration-500 text-xl'>Home</li>
-               </NavLink>
-                <NavLink to={"/about"}>
+               </NavLink >
+                <NavLink to={"/about"} className={navLinkStyles}>
                   <li className='hover:text-orange-600 duration-500 text-xl'>About</li>
                 </NavLink>
-                <NavLink to={"/service"}>
+                <NavLink to={"/service"} className={navLinkStyles}>
                   <li className='hover:text-orange-600 duration-500 text-xl'>Service</li>
                 </NavLink>
-                <NavLink to={"/contact"}>
+                <NavLink to={"/contact"} className={navLinkStyles}>
                   <li className='hover:text-orange-600 duration-500 text-xl'>Contact</li>
                 </NavLink>
                 
@@ -82,16 +86,16 @@ function Navbar() {
               `}>
 
               <ul className='gap-6 px-4 py-0 flex flex-col'>
-               <NavLink to={"/"}>
+               <NavLink to={"/"} className={navLinkStyles}>
                  <li className='hover:text-orange-600 duration-500 text-xl border-b' onClick={handleTab}>Home</li>
                </NavLink>
-                <NavLink to={"/about"}>
+                <NavLink to={"/about"} className={navLinkStyles}>
                   <li className='hover:text-orange-600 duration-500 text-xl border-b' onClick={handleTab}>About</li>
                 </NavLink>
-                <NavLink to={"/service"}>
+                <NavLink to={"/service"} className={navLinkStyles}>
                   <li className='hover:text-orange-600 duration-500 text-xl border-b' onClick={handleTab}>Service</li>
                 </NavLink>
-                <NavLink to={"/contact"}>
+                <NavLink to={"/contact"} className={navLinkStyles}>
                   <li className='hover:text-orange-600 duration-500 text-xl border-b' onClick={handleTab}>Contact</li>
                 </NavLink>
                 

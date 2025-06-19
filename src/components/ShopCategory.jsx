@@ -39,7 +39,7 @@ function ShopCategory() {
 
         </div>
 
-        <div className='flex flex-wrap justify-between items-center my-3.5'>
+        {/* <div className='flex flex-wrap justify-between items-center my-3.5'>
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >
                 <h2 className='absolute z-3 left-1/2 transform -translate-x-1/2 top-3 font-bold text-white text-2xl'>Laptops</h2>
                 <img className='w-full h-full object-cover hover:scale-105 duration-300 cursor-pointer ' src="https://www.geeky-gadgets.com/wp-content/uploads/2022/04/Windows-11.jpg" alt="" />
@@ -71,7 +71,7 @@ function ShopCategory() {
                  src="https://www.slashgear.com/img/gallery/playstation-plus-will-end-ps3-and-ps-vita-free-games-in-early-2019/intro-import.jpg" alt="" />
             </div>
 
-        </div>
+        </div> */}
     </div> 
         
   )

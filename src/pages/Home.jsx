@@ -6,6 +6,9 @@ import BestDealProducts from '../components/BestDealProducts';
 import DiscountPage from '../components/DiscountPage';
 import WeeklyPopularProducts from '../components/WeeklyPopularProducts';
 import HeroTwo from '../components/HeroTwo';
+import TodayBestDeal from '../components/TodayBestDeal';
+import Get50pcBack from '../components/Get50pcBack';
+import TrendingProducts from '../components/TrendingProducts';
 
 function Home() {  
   
@@ -17,12 +20,20 @@ function Home() {
         <ShopCategory/>
         <BestDealProducts/>
         <DiscountPage/>
-        <div className='mt-10'>
+        <div className='lg:mt-10'>
             <WeeklyPopularProducts/>
         </div>
        
       </div>
        <HeroTwo/>
+       <div className='container mx-auto'>
+        <TodayBestDeal/>
+       </div>
+       <div>
+            <TrendingProducts/>
+        </div>
+        <Get50pcBack/>
+        
     </div>
   )
  

@@ -4,7 +4,7 @@ function DiscountPage() {
      return (
     <div className='w-full'>
         <div className="px-4 lg:px-[120px] mx-auto">
-            <h1 className='text-3xl font-bold mb-5'>Get Up to 70% off</h1>
+            <h1 className='text-2xl font-bold mb-5'>Get Up to 70% off</h1>
 
             <div className="flex flex-wrap justify-between">
                 <div className='my-3 sm:w-[48%] lg:w-[24%] bg-yellow-100 rounded-xl overflow-hidden'>
