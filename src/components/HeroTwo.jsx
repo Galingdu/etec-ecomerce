@@ -3,7 +3,7 @@ import React from 'react'
 function HeroTwo() {
   return (
     <div className='w-full h-[50vh] bg-img-2'>
-        <div className="container h-full px-4 lg:px-[128px] mx-auto flex items-center justify-end">
+        <div className="container h-full px-4 lg:px-[128px] mx-auto flex items-center justify-end" data-aos="fade-up">
           <div className='w-full md:w-[60%] lg:w-[38%] bg-orange-600 p-8'>
               <h1 className='text-4xl md:text-6xl text-white font-bold'>
               Get 5% Cash back on $200

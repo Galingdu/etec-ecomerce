@@ -2,7 +2,7 @@ import React from 'react'
 
 function ShopCategory() {
   return (
-    <div className='px-5 py-3 lg:px-[120px] md:py-10 lg:mt-3'>
+    <div className='px-5 py-3 lg:px-[120px] md:py-10 lg:mt-3' data-aos="fade-up">
         <h2 className='text-2xl font-bold'>Shop Our Top Categories</h2>
         <div className='flex flex-wrap justify-between items-center md:mt-10'>
             <div className='rounded-3xl mt-3 overflow-hidden relative h-[230px] w-[48%] xl:w-[15%] md:w-[32%]' >

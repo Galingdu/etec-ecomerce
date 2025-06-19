@@ -2,7 +2,7 @@ import React from 'react'
 
 function Get50pcBack() {
   return (
-    <div className='flex justify-between items-center bg-orange-300 ps-2 py-5 lg:px-[200px] md:py-20'>
+    <div className='flex justify-between items-center bg-orange-300 ps-2 py-5 lg:px-[200px] md:py-20' data-aos="fade-up">
         <div>
             <h2 className='lg:text-5xl text-[18px] font-bold'>Get 5% Cash Back</h2>
             <p className='font-semibold lg:my-8 my-4 md:text-1xl text-[12px]'>On OrangeShop.com</p>

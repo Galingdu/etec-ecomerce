@@ -10,7 +10,11 @@ import Home from './pages/Home.jsx'
 import View from './pages/View.jsx'
 import { ProductProvider } from './pages/ProductContext.jsx'
 
+
+ 
+
 createRoot(document.getElementById('root')).render(
+  
   <StrictMode>
     <ProductProvider>
       <BrowserRouter>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function TrendingProducts() {
   return (
-    <div className='px-5 py-3 lg:px-[120px] md:pt-10'>
+    <div className='px-5 py-3 lg:px-[120px] md:pt-10' data-aos="fade-up">
       <h2 className='text-2xl font-bold'>Trending Products For You !</h2>
       <div className='flex flex-wrap justify-between items-center lg:my-8 mt-5 lg:gap-0 gap-8'>
         <div className='lg:w-[49%] w-full'>

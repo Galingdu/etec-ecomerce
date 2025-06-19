@@ -29,7 +29,7 @@ function PaymentIcon({ icon, label }) {
 }
 
   return (
-    <div className="bg-white text-gray-700 border-t pt-10">
+    <div className="bg-white text-gray-700 border-t pt-10" data-aos="fade-up">
       <div className="mx-auto px-5 lg:px-[120px] grid grid-cols-1 md:grid-cols-5 gap-10 pb-10">
 
         {/* Logo + Description + Payment */}

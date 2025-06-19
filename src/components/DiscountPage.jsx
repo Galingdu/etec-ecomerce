@@ -3,7 +3,7 @@ import React from 'react'
 function DiscountPage() {
      return (
     <div className='w-full'>
-        <div className="px-4 lg:px-[120px] mx-auto">
+        <div className="px-4 lg:px-[120px] mx-auto" data-aos="fade-up">
             <h1 className='text-2xl font-bold mb-5'>Get Up to 70% off</h1>
 
             <div className="flex flex-wrap justify-between">
