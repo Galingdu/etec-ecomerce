@@ -2,16 +2,21 @@ import React, { useContext } from 'react'
 import ProductContext from '../pages/ProductContext'
 
 import { IoMdHeartEmpty } from 'react-icons/io'
+import CardSekeleton from './CardSekeleton'
 
 function WeeklyPopularProducts() {
-  const { products } = useContext(ProductContext)
+  const { products,loading } = useContext(ProductContext)
 
   return (
     <div className='px-5 py-3 lg:px-[120px] md:pb-10' data-aos="fade-up">
       <h2 className='text-2xl font-bold'>Weekly PopularProducts!</h2>
 
       <div className='overflow-x-auto py-5 mt-10'>
-        <div className='flex gap-5 whitespace-nowrap'>
+        {
+          loading?(
+            <CardSekeleton/>
+          ):(
+            <div className='flex gap-5 whitespace-nowrap'>
           {products.map((p, i) => (
             <div
               key={i}
@@ -54,6 +59,8 @@ function WeeklyPopularProducts() {
             </div>
           ))}
         </div>
+          )
+        }
       </div>
     </div>
   )

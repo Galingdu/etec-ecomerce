@@ -9,6 +9,7 @@ import HeroTwo from '../components/HeroTwo';
 import TodayBestDeal from '../components/TodayBestDeal';
 import Get50pcBack from '../components/Get50pcBack';
 import TrendingProducts from '../components/TrendingProducts';
+import CardSekeleton from '../components/CardSekeleton';
 
 function Home() {  
   
@@ -33,6 +34,7 @@ function Home() {
             <TrendingProducts/>
         </div>
         <Get50pcBack/>
+        <CardSekeleton/>
         
     </div>
   )

@@ -1,11 +1,12 @@
 import React, { useContext } from 'react'
 import { IoMdHeartEmpty } from 'react-icons/io'
 import ProductContext from '../pages/ProductContext'
+import CardSekeleton from './CardSekeleton'
 
 
 
 function TodayBestDeal() {
-    const {products} = useContext(ProductContext)
+    const {products,loading} = useContext(ProductContext)
   return (
     <div className='px-5 py-3 lg:px-[120px] md:py-10' data-aos="fade-up">
       <h2 className='text-2xl font-bold'>Todays Best Deals For You!</h2>
@@ -23,7 +24,11 @@ function TodayBestDeal() {
 
 
       <div className='overflow-x-auto py-5 mt-10'>
-              <div className='flex gap-5 whitespace-nowrap'>
+              {
+                loading?(
+                  <CardSekeleton/>
+                ):(
+                  <div className='flex gap-5 whitespace-nowrap'>
                 {products.map((p, i) => (
                   <div
                     key={i}
@@ -66,6 +71,8 @@ function TodayBestDeal() {
                   </div>
                 ))}
               </div>
+                )
+              }
             </div>
     </div>
   )

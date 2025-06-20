@@ -21,7 +21,7 @@ function TrendingProducts() {
             <div className='w-full lg:h-[300px] h-[200px] bg-amber-300 rounded-2xl overflow-hidden' >
                 <img src="https://robots.net/wp-content/uploads/2023/09/how-to-download-via-keyboard-1695774173.jpg" className='w-full h-full object-cover' alt="" />
             </div>
-            <div className='px-5'>
+            <div className='px-5 pb-3'>
                 <h3 className='mt-5 text-[20px] font-bold'>Red Heart</h3>
                 <p className='mb-5 my-2 font-semibold'>Delivery with in 24 hours</p>
                 <button className='font-medium btn bg-orange-600 text-white rounded-3xl border-0 px-4 py-2 lg:px-8 lg:py-6 hover:bg-orange-700'>
