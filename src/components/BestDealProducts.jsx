@@ -25,7 +25,7 @@ function BestDealProducts() {
               {/* Image with favorite button */}
               <div className='relative'>
                 <img
-                  className='w-full h-[250px] object-cover'
+                  className='w-full h-[250px] object-cover hover:scale-105 duration-300'
                   src={p.image}
                   alt={p.name}
                 />

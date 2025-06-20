@@ -34,7 +34,7 @@ function Home() {
             <TrendingProducts/>
         </div>
         <Get50pcBack/>
-        <CardSekeleton/>
+    
         
     </div>
   )

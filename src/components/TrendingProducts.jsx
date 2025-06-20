@@ -7,7 +7,7 @@ function TrendingProducts() {
       <div className='flex flex-wrap justify-between items-center lg:my-8 mt-5 lg:gap-0 gap-8'>
         <div className='lg:w-[49%] w-full'>
             <div className='w-full lg:h-[300px] h-[200px] bg-amber-300 rounded-2xl overflow-hidden' >
-                <img src="https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-d-rendered-notebook-laptop-computer-placed-on-white-tabletop-with-bokeh-image_3903100.jpg" className='w-full h-full object-cover' alt="" />
+                <img src="https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-d-rendered-notebook-laptop-computer-placed-on-white-tabletop-with-bokeh-image_3903100.jpg" className='w-full h-full object-cover hover:scale-105 duration-300' alt="" />
             </div>
             <div className='px-5'>
                 <h3 className='mt-5 text-[20px] font-bold'>Furniture Village</h3>
@@ -19,7 +19,7 @@ function TrendingProducts() {
 
         <div className='lg:w-[49%] w-full'> 
             <div className='w-full lg:h-[300px] h-[200px] bg-amber-300 rounded-2xl overflow-hidden' >
-                <img src="https://robots.net/wp-content/uploads/2023/09/how-to-download-via-keyboard-1695774173.jpg" className='w-full h-full object-cover' alt="" />
+                <img src="https://robots.net/wp-content/uploads/2023/09/how-to-download-via-keyboard-1695774173.jpg" className='w-full h-full object-cover hover:scale-105 duration-300' alt="" />
             </div>
             <div className='px-5 pb-3'>
                 <h3 className='mt-5 text-[20px] font-bold'>Red Heart</h3>

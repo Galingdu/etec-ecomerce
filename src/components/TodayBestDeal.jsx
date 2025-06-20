@@ -9,7 +9,7 @@ function TodayBestDeal() {
     const {products,loading} = useContext(ProductContext)
   return (
     <div className='px-5 py-3 lg:px-[120px] md:py-10' data-aos="fade-up">
-      <h2 className='text-2xl font-bold'>Todays Best Deals For You!</h2>
+      <h2 className='text-2xl font-bold'>Todays Popular For You!</h2>
       <div className='flex gap-5 overflow-x-auto py-5'>
             <button className='btn border-1 border-gray-400 px-5 py-2 rounded-3xl hover:bg-amber-600 hover:text-white duration-200'>Gadgets</button>
             <button className='btn border-1 border-gray-400 px-5 py-2 rounded-3xl hover:bg-amber-600 hover:text-white duration-200'>Fashion</button>
@@ -37,7 +37,7 @@ function TodayBestDeal() {
                     {/* Image with favorite button */}
                     <div className='relative'>
                       <img
-                        className='w-full h-[250px] object-cover'
+                        className='w-full h-[250px] object-cover hover:scale-105 duration-300'
                         src={p.image}
                         alt={p.name}
                       />
